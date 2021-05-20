@@ -5,6 +5,8 @@ A system that sends encrypted messages one-way from client to server, allows ser
 
 ## Structure
 ### 1. Server-side    
+<img src="/img/server.png" alt="client-side view" width="350"/>
+
     Program waits for connection.
     On connection receives client's public key.
     When client sends message, gets the signature and message.

@@ -11,7 +11,7 @@ A system that sends encrypted messages one-way from client to server, allows ser
     Allows to check the message validity: true if message was unchanged, false if it was changed.
     
 ### 2. Client-side
-<img src="/img/client.png" alt="client-side view" width="200"/>
+<img src="/img/client.png" alt="client-side view" width="300"/>
     Connects to the server.
     User can send message to the server.
     

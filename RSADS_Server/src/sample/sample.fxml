@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorid" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="611.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <StackPane layoutX="364.0" layoutY="205.0" prefHeight="150.0" prefWidth="200.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <VBox style="-fx-background-color: #2D3A51;" HBox.hgrow="ALWAYS" />
+                  <VBox style="-fx-background-color: white;" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <AnchorPane prefHeight="500.0" prefWidth="1250.0" style="-fx-background-color: white;">
+               <children>
+                  <Button fx:id="clearButton" alignment="CENTER" layoutX="327.0" layoutY="307.0" mnemonicParsing="false" onAction="#onClearPressed" prefHeight="37.0" prefWidth="126.0" style="-fx-background-color: #FE9992; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 50px;" text="Clear" textAlignment="CENTER" />
+                  <Text fill="WHITE" layoutX="245.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 1em; -fx-font-family: Quicksand; -fx-font-weight: bold; -fx-fill: #3B969B;" text="Message" />
+                  <TextArea fx:id="messageField" layoutX="98.0" layoutY="89.0" prefHeight="129.0" prefWidth="355.0" promptText="Input your text here" wrapText="true" />
+                  <Button fx:id="verifyButton" layoutX="98.0" layoutY="307.0" mnemonicParsing="false" onAction="#onVerifyPressed" prefHeight="37.0" prefWidth="126.0" style="-fx-background-color: #FFAE42; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 50px;" text="Verify" />
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+               <StackPane.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </StackPane.margin>
+            </AnchorPane>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </StackPane>
+   </children>
+</AnchorPane>

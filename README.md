@@ -20,5 +20,5 @@ A system that sends encrypted messages one-way from client to server, allows ser
     
 ### Verification
 
-<img src="/img/verification.png" alt="unchanged message" width="400"/>
-<img src="/img/verification_f.png" alt="changed message" width="400"/>
+<img src="/img/verification.png" alt="unchanged message" width="500"/>
+<img src="/img/verification_f.png" alt="changed message" width="500"/>

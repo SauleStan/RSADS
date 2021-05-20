@@ -1,7 +1,7 @@
 # RSA Digital Signature program with client and server sides
 
 A system that sends encrypted messages one-way from client to server, allows server to check validity of the message.
-![client-side view](img/client.png)
+![client-side view](/img/client.png)
 
 ## Structure
 ### 1. Server-side    
